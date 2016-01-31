@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package accessoop;
-import GoiA.ClassA1;
-import GoiA.ClassA2;
+package accessoop; //ClassA1, ClassA2, ClassA3 cung thuoc package accessoop
 
 /**
  *
