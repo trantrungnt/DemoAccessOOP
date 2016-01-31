@@ -5,6 +5,7 @@
  */
 package accessoop;
 import GoiA.ClassA1;
+import GoiA.ClassA2;
 
 /**
  *
@@ -17,8 +18,11 @@ public class AccessOOP {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        ClassA1 oClassA1 = new ClassA1();
-        oClassA1.methodA1();
+        ClassA1 oClassA1 = new ClassA1(); //khoi tao doi tuong oClassA1
+        oClassA1.methodA1(); //goi phuong thuc cua doi tuong oClassA1
+        
+       ClassA2 oClassA2 = new ClassA2(); //khoi tao doi tuong oClassA2
+       oClassA2.methodA2(); //goi phuong thuc cua doi tuong oClassA2
     }
     
 }
