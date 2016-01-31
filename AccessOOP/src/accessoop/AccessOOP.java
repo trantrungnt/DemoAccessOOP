@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package accessoop; //ClassA1, ClassA2, ClassA3 cung thuoc package accessoop
+//import GoiB.ClassB1; //khai bao ClassB1 thuoc package B de ta co the su dung duoc classB1 trong package accessoop
+import GoiB.*;
 
 /**
  *
@@ -24,6 +26,9 @@ public class AccessOOP {
        
        ClassA3 oClassA3 = new ClassA3(); //khoi tao doi tuong oClassA3
        oClassA3.Method3();
+       
+       ClassB1 oClassB1 = new ClassB1(); //khoi tao doi tuong oClassB1
+       oClassB1.methodB1();
     }
     
 }
