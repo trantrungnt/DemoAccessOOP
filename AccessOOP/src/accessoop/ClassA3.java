@@ -9,10 +9,10 @@ package accessoop;
  *
  * @author TrungNT
  */
-public class ClassA2 {//classA1, classA2, classA3 cung thuoc package accessoop
-    void methodA2(){ //default: classA2, classA3 ke thua classA1 van truy cap duoc classA1
+public class ClassA3 extends ClassA1{ //ClassA3 ke thua ClassA1
+    void Method3(){ //tai ClassA3: truy cap vao ClassA1 de goi phuong thuc method1 
         ClassA1 oClassA1 = new ClassA1();
         oClassA1.methodA1();
-        System.out.println("Hien thi gia tri co trong thuoc tinh cua ClassA1: " + oClassA1.VarA1);
+        System.out.println("Day la ClassA3");
     }
 }

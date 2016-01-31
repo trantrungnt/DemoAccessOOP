@@ -21,6 +21,9 @@ public class AccessOOP {
         
        ClassA2 oClassA2 = new ClassA2(); //khoi tao doi tuong oClassA2
        oClassA2.methodA2(); //goi phuong thuc cua doi tuong oClassA2
+       
+       ClassA3 oClassA3 = new ClassA3(); //khoi tao doi tuong oClassA3
+       oClassA3.Method3();
     }
     
 }
